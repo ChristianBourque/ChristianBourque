@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--Les trous noirs-->
+<!--Par Christian Bourque-->
+<!--Le 26 avril 2018-->
+<html lang="fr-ca">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Le style.css doit être en dessous de Bootstrap pour l'overrider!-->
+
+    <title>Jeu et contact</title>
+
+
+</head>
+<body>
+    <div class="container-fluid" id="Jeu et contact">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Navigation</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="TrousNoirs.html">Les trous noirs <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="NASA.html">NASA</a>
+                        <a class="nav-item nav-link" href="CERN.html">CERN</a>
+                        <a class="nav-item nav-link" href="LIGO.html">LIGO</a>
+                        <a class="nav-item nav-link active" href="Jeu%20et%20contact.html">Jeu et contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="col-12">
+                <h1>Jeu et contact</h1>
+                <p>Inscription à la liste de courriels</p>
+                <form>
+                    <div class="form-row" id="formulaire">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Courriel</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Courriel">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Mot de passe</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+                        </div>
+                    </div>
+                    <div class="form-group" id="formulaire">
+                        <label for="inputAddress">Adresse</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Adresse">
+                    </div>
+                    <div class="form-group" id="formulaire">
+                        <label for="inputAddress2">Adresse 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Appartement ou numéro d'unité">
+                    </div>
+                    <div class="form-row" id="formulaire">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Ville</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4" id="formulaire">
+                            <label for="inputState">Province</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choisir...</option>
+                                <option>Québec</option>
+                                <option>Ontario</option>
+                                <option>Nouvelle-Écosse</option>
+                                <option>Terre-Neuve/Labrador</option>
+                                <option>Manitoba</option>
+                                <option>Alberta</option>
+                                <option>Colombie-Britannique</option>
+                                <option>Nouveau-Brunswick</option>
+                                <option>Yukon</option>
+                                <option>Territoires du Nord-Ouest</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2" id="formulaire">
+                            <label for="inputZip">Code postal</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit">S'inscrire à la liste</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 text-center" id="pied de page">
+        <p>Tous droits réservés</p>
+        <p>Christian Bourque</p>
+        <p>2018</p>
+    </div>
+<script src="js/jquery-3.3.1.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="js/bootstrap.js"></script> <!-- Toujours la dernière ligne du body -->
+<script src="js/script.js"></script>
+<script src="learningPixi-master/pixi/pixi.min.js"></script>
+
+</body>
+</html>
